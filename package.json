@@ -1,0 +1,28 @@
+{
+  "name": "the-hound-consumer",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.317.0",
+    "pkg": "^4.3.4"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/sqs_receivemessage.js",
+    "standard": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsmockery/the-hound-consumer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awsmockery/the-hound-consumer/issues"
+  },
+  "homepage": "https://github.com/awsmockery/the-hound-consumer#readme"
+}
