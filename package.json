@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "description": "",
   "dependencies": {
-    "aws-sdk": "^2.317.0"
+    "aws-sdk": "^2.317.0",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "standard": "^12.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/sqs_receivemessage.js",
+    "start": "node src/api.js",
     "standard": "standard --fix"
   },
   "repository": {
